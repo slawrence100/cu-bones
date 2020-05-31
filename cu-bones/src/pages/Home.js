@@ -1,26 +1,16 @@
 import React from 'react';
-import logo from '../img/logo.svg';
+import Person from '../components/person.js'
+import Footer from '../components/footer.js'
 import '../css/App.css';
 
 function Home() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <p>Hello world</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Person name="Syd" img="syd-img" />
+      <Person name="Puffle" img="puffle-img" />
+      <Footer />
     </div>
+
   );
 }
 
