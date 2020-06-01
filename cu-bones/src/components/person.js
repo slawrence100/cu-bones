@@ -2,13 +2,9 @@ import React from 'react';
 
 class Person extends React.Component {
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: props.name,
-      img: props.img
-    }
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
 
   render() {
     return (

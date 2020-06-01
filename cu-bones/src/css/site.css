@@ -1,0 +1,36 @@
+.red {
+  background-color: red;
+}
+.blue{
+  background-color: blue;
+}
+
+.header {
+  padding: 4% 2%;
+  background-color: teal;
+}
+
+article {
+  padding: 2% 2%;
+}
+
+.screen {
+  height: 100%;
+  width: 100%;
+  background-color: yellow;
+}
+
+.nav-link {
+  color: black;
+  background-color: white;
+}
+
+.wide {
+  width: 100%;
+  background-color: orange;
+}
+
+.center {
+  width: 90%;
+  margin: auto;
+}

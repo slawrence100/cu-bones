@@ -1,20 +1,29 @@
 import React from 'react';
 
-class Navbar extends React.Component {
+import Col from 'react-bootstrap/Col'
+import Image from 'react-bootstrap/Image'
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
 
-  constructor(props) {
-    super(props);
-    // TODO add state if needed
-  }
+import bone_logo from '../img/bone-logo.jpg'
+
+class SideNavbar extends React.Component {
 
   render() {
     // TODO implement
     return (
-      <div>
-        <p>Navbar</p>
-      </div>
+      <Col sm={2} className="red">
+        <Image src={bone_logo} fluid />
+        <Navbar className="wide">
+          <Nav>
+            <Nav.Item>
+              <Nav.Link href="../pages/about.js">About Us</Nav.Link>
+            </Nav.Item>
+          </Nav>
+        </Navbar>
+      </Col >
     );
   }
 }
 
-export default Navbar;
+export default SideNavbar;
