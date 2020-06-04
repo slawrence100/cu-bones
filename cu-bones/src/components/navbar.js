@@ -23,7 +23,12 @@ class SideNavbar extends React.Component {
 
   makePage(name) {
     return (
-      <Nav.Link href={this.makePageName(name)} className="nav-block" variant="light" > {name} </Nav.Link>
+      <Nav.Item>
+        <Nav.Link href={this.makePageName(name)} className="nav-block" variant="light" >
+          {name}
+        </Nav.Link>
+      </Nav.Item>
+
     )
   }
 
@@ -49,8 +54,8 @@ class SideNavbar extends React.Component {
         <Image src={bone_logo} fluid />
         <br />
         <div class="full-width">
-          <Navbar>
-            <Nav className="flex-column full-width">
+          <Navbar collapseOnSelect expand="md">
+            <Nav justify variant="pills" className="flex-column full-width">
               {this.makePages()}
             </Nav>
           </Navbar>

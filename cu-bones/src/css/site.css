@@ -7,7 +7,6 @@ html, body {
 .full-size {
   height: 100%;
   width: 100%;
-  background-color: orange;
 }
 
 .full-width {
@@ -15,7 +14,8 @@ html, body {
 }
 
 .full-height{
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
 }
 
 .red {
@@ -24,6 +24,7 @@ html, body {
 
 .header {
   padding: 4% 2%;
+
 }
 
 article {
@@ -40,10 +41,6 @@ article {
   background-color: orange;
 }
 
-.nav-block {
-  display: block;
-  width: 100%;
-  margin: 3% 0;
-  border-radius: 5%/30%;
-  text-align: center;
+.nav-link {
+  margin-bottom: 2%;
 }
