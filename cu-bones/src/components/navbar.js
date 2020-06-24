@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import Button from 'react-bootstrap/Button'
 
-import bone_logo from '../img/bone-logo.jpg'
+import bone_logo from '../img/bone-logo-transparent.png'
 
 class SideNavbar extends React.Component {
 

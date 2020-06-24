@@ -1,4 +1,14 @@
 
+:root {
+  --cornell-red: #B31B1B;
+  --cornell-grey: #222222;
+  --cornell-white-gray: #F7F7F7;
+  --cornell-secondary-red-graphic: #EF4035;
+  --cornell-secondary-red-text: #DF1E12;
+  --cornell-secondary-blue: #006699;
+  --cornell-secondary-grey: #A2998B;
+}
+
 html, body {
   width: 100vw;
   height: 100vh;
@@ -19,7 +29,7 @@ html, body {
 }
 
 .red {
-  background-color: red;
+  background-color: var(--cornell-red);
 }
 
 .header {
