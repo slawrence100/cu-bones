@@ -54,3 +54,7 @@ article {
 .nav-link {
   margin-bottom: 2%;
 }
+
+.newlineable {
+  white-space: pre-wrap;
+}
