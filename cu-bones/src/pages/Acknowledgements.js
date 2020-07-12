@@ -19,7 +19,20 @@ function Acknowledgements() {
           <Header title="Acknowledgements"
             desc="Who do we credit for this site?" />
           <article>
-            <p>Nothing to see here yet...</p>
+            <p>
+              A long, long time ago, in a land far, far away, the elders of da bones, known as Olds,
+              created the first Bone site. As you could imagine, t'was made in the early days of HTML.
+              Bone inertia, however, left the site's design largely untouched. For a long time, da bones
+              kept the site as is, viewing the <del>evil</del> antique technology with nostalga instead.
+            </p>
+            <p>
+              And then came Syd. He was not known for much, besides cooking overly fancy stuff, writing code, and
+              of course, playing <del>flute</del> bone. The dreaded COVID-19 caused many a bone to be stuck at home,
+              and Syd figured he could use his time to make modern web pages. One GitHub repo later, this site was born.
+            </p>
+            <p>
+              (oh, and he's still alive lol, using the past tense just sounded more story-like)
+            </p>
           </article>
         </Col>
       </Row>
